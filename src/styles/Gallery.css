@@ -1,0 +1,15 @@
+.gallery{
+    background: #F7F7F7;
+    border-radius: 25px;
+    padding:20px;
+    margin-left:100px;
+    margin-right: 100px;
+    margin-bottom:20px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+}
+.gallery a{
+    text-decoration: none;
+}

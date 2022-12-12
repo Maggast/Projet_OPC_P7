@@ -1,0 +1,126 @@
+.fichelogement .lodge-info{
+    position:relative;
+    margin:0 100px 0 100px;
+    font-size:18px;
+}
+
+.lodge-info .title{
+    font-size: 36px;
+    height:51px;
+}
+
+.lodge-info .location{
+    height:26px;
+    margin-bottom: 20px;
+}
+
+.lodge-info .tags{
+margin-bottom: 24px;
+}
+
+.lodge-info .host{
+    display:flex;
+    align-items: center;
+    position:absolute;
+    right:0px;
+    top:0px;
+    margin-left: 20px;
+}
+
+.lodge-info .host-name{
+    margin-right: 10px;
+    width:93px;
+    height:52px;
+}
+
+.lodge-info .host-picture{
+    width:64px;
+    height:64px;
+    border-radius:50%;
+}
+
+.stars-content{
+    position:absolute;
+    right:0;
+    top:90px;
+}
+
+.stars-content img{
+    width:30px;
+    height:30px;
+    margin-left:10px;
+}
+
+.lodge-info .tag{
+    font-size: 14px;
+    background-color: #FF6060;
+    color:white;
+    border-radius: 10px;
+    text-align: center;
+    padding:5px 30px;
+    margin-right:10px ;
+}
+
+.lodge-info .tags-content{
+    display:flex;
+    margin-bottom:24px;
+}
+
+.fichelogement .collapses-content{
+   display:flex; 
+   justify-content: space-between; 
+   margin-left: 100px;
+   margin-bottom:14px;
+ 
+}
+
+.fichelogement .collapse button {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width:582px;
+    height:52px;
+    background-color:#FF6060 ;
+    color: white;
+    border:none;
+    border-radius:10px;
+    padding-right:20px; 
+    padding-left: 18px;
+  
+}
+
+.fichelogement .collapse h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size:18px;
+    font-weight: 500; 
+}
+
+.fichelogement .collapse ul{
+    margin:0;
+    padding:0;
+   
+    
+}
+.fichelogement .collapse .detail{
+    width:552px;
+    padding-top: 40px;
+    background-color:  #F7F7F7;
+    height:249px;
+    padding-left :18px; 
+    padding-right: 12px;
+    font-weight: 400;
+    font-size:18px;
+    border-radius: 5px;
+    line-height:25px ;
+    
+}
+.fichelogement .collapses-content{
+    margin-right :76px;
+    
+}
+ 
+
+
+
+
+

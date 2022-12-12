@@ -1,0 +1,25 @@
+.homebanner{
+    margin: 40px 100px 40px 100px;
+    position:relative;
+    border-radius: 25px;
+    background-color: black;
+    display:flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.homepicture{
+    object-fit: cover;
+    height:220px;
+    width:100%;
+    border-radius: 25px;
+    opacity:0.8;   
+}
+
+.homebanner-text {
+    position :absolute;
+    z-index:99;
+    color:#ffffff;
+    font-size: 40px;
+    padding:78px 102px 77px 16px;
+}

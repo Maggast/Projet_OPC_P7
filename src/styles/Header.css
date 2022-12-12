@@ -1,0 +1,14 @@
+.header{
+   
+   display:flex;
+   justify-content:space-between;
+   margin-left:100px;
+   margin-right: 100px;
+   margin-top: 40px;
+}
+
+.redlogo {
+   height:68px;
+   width:210px;
+}
+

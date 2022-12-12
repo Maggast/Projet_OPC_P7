@@ -1,0 +1,38 @@
+.apropos .collapse button {
+    width:100%;
+    display:flex;
+    align-items: center;
+    height: 47px;
+    background-color:#FF6060 ;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    padding-right: 18px; 
+    padding-left: 16px;
+}
+
+.apropos .collapse{ 
+    position :relative;
+    margin:31px 209px 31px 208px;
+    font-size: 24px;   
+}
+.apropos .collapse h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size:24px;
+    font-weight: 500; 
+}
+
+.apropos .collapse p{
+    background: #F7F7F7;
+    padding:27px 27px 19px 18px;
+    font-weight: 400;
+    font-size:24px;
+    border-radius: 5px;
+    line-height:34px ;
+}
+.apropos .collapse img{
+    position:absolute;
+    right:16px;
+}
+
+
