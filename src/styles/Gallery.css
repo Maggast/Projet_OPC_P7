@@ -13,3 +13,17 @@
 .gallery a{
     text-decoration: none;
 }
+
+@media screen and (max-width: 900px) {
+    .gallery{
+    background-color: white;
+    padding:0;
+    margin-right:20px;
+    margin-left:20px;
+    margin-top:0;
+    height:auto;
+    flex-direction: column;
+    justify-content: baseline;
+    }
+    
+}

@@ -6,7 +6,7 @@ import '../styles/Home.css'
 
 function Home (){
   return(
-    <div>
+    <div className='home'>
     <Header/>
     <div className='homebanner'>
     <img className='homepicture'src={HomePicture} alt='littoral maritime'></img>

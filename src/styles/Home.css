@@ -6,6 +6,7 @@
     display:flex;
     flex-direction: column;
     align-items: center; 
+    justify-content: center;
 }
 
 .homepicture{
@@ -22,4 +23,24 @@
     color:#ffffff;
     font-size: 40px;
     padding:78px 102px 77px 16px;
+}
+
+@media screen and (max-width: 900px) {
+    
+    .homebanner{
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        height:111px;
+        border-radius: 10px;
+    }
+
+    .homebanner-text {
+        font-size: 24px;
+    }
+
+    .homepicture{
+        height:111px;
+        border-radius: 10px;
+    }
 }

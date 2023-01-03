@@ -21,7 +21,7 @@ if(findLogement !== undefined){
             .map((list)=>
                 <div key={list.toString}>
                     <Carrousel data = {list.pictures}/>
-                    <div className='lodge-info'>
+                    <div className='lodge-info'>                 
                         <div className ='title'>{list.title}</div>
                         <div className='location'>{list.location}</div>
                         <div className='tags-content'>

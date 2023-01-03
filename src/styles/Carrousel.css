@@ -17,7 +17,7 @@
     position :absolute;
     background-color: transparent;
     border:none;
-    bottom: 40%;
+    bottom:40%;
  }
 
  .carrousel .btn-back{
@@ -36,4 +36,37 @@
     font-size: 18px;
     color: #FFFFFF;
  }
- 
+
+ @media screen and (max-width:900px) {
+    .carrousel{
+        margin: 10px 20px 15px 20px;
+        border-radius: 10px;
+    }
+    
+    .carrousel .logementpicture{
+        height:255px;
+        border-radius: 10px;
+    }
+    
+    .carrousel img{
+        width: 12px;
+        height:20px;
+        
+    }
+    
+    .carrousel .picturenumber{
+        font-size: 12px;
+    }
+
+    .carrousel button{
+        bottom:50%;
+    }
+
+    .carrousel .btn-back{
+        left:6px;
+     }
+
+     .carrousel .btn-forward{
+        right: 6px;
+      }
+ }

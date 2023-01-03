@@ -8,7 +8,7 @@ function Gallery(){
         <div className='gallery'>
            {LogementsList.map(({id,title,cover}) => 
            <div key={title}>
-                    <Link to={`/fichelogement/${id}`}>
+                    <Link to={`/fichelogement/${id}`} >
                         <LogementItem 
                         cover={cover}
                         title={title}/>

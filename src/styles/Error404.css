@@ -1,18 +1,25 @@
 .error404{
     display:flex;
     flex-direction: column;
-    align-items: center;   
+    align-items: center; 
+   
 }
 
 .code404{
     font-weight: 700;
     font-size: 288px;
     margin-top:150px;
+  
 }
 
 .oups{
     font-size: 36px;
     margin-top:70px;
+    padding: 10px;
+    margin-right:10%;
+    margin-left:10%;
+    
+    
 }
 
 .pagereturn{
@@ -30,5 +37,32 @@
     text-decoration: underline;
 }
 
+.footererror{
+    margin-top: 325px;
+}
+
+@media screen and (max-width: 900px){
+    .code404{
+        font-size: 96px;
+        margin-top:200px;
+    }
+    .oups{
+        width:260px;
+        font-size: 18px;
+        margin-top: 11px;
+        text-indent: 20%;
+        line-height: 25px;
+    }
+    .pagereturn{
+        font-size: 14px; 
+        margin-top: 133px;
+        margin-bottom:235px;
+       
+    }
+    
+
+
+}
+    
 
 

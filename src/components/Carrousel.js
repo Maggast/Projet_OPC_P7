@@ -70,16 +70,15 @@ function Carrousel (props)  {
                     <div key={image.toString()} >                 
                     <div className='picture-content'>
                       <img src={image} alt='img'  className='logementpicture'/>
-                      <div className ='picturenumber'>
+                    </div>
+                    <div className ='picturenumber'>
                         {currentSlide+1}/{props.data.length}
                       </div>
-                   </div>
                   </div>)}})}
               </div>
-           </div>)}
-                  
-                 
+           </div>)}      
    }
+   
 export default Carrousel;
 
 

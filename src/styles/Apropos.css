@@ -29,10 +29,62 @@
     font-size:24px;
     border-radius: 5px;
     line-height:34px ;
+    margin-top: 0;
 }
+
 .apropos .collapse img{
     position:absolute;
     right:16px;
 }
 
+.apropos .footer{
+ margin-top:725px;
+}
 
+@media screen and (max-width:900px) {
+    .apropos{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .apropos .homebanner{
+        height: 223px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .apropos .homepicture{
+        height: 233px;
+    }
+
+    .apropos .collapse{ 
+        margin-bottom: 0;
+        margin-left: 20px;
+        margin-top:20px;
+        margin-right: 20px;
+    }
+
+    .apropos .collapse h2{
+        font-size: 13px; 
+    }
+
+    .apropos .collapse img{
+        width:16px;
+    }
+
+    .apropos .collapse button {
+        height: 30px;
+
+    }
+
+    .apropos .collapse p{
+        font-size: 12px;
+        Line-height:17px;
+        padding:23px 7px 52px 12px;
+    }
+
+    .apropos .footer{
+        margin-top:500px;
+       }
+ 
+}

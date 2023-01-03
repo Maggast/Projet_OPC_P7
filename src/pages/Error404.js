@@ -14,7 +14,9 @@ function Error404 (){
             <span className='oups'>Oups! La page que vous demandez n'existe pas.</span>
             <Link to='/'className='pagereturn'>Retourner sur la page d’accueil</Link>
             </div>
+            <div className='footererror'>
             <Footer/>
+            </div>
         </div>
     )
 }

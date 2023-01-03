@@ -5,7 +5,7 @@ function Footer(){
 
     return (
         <div className='footer'>
-            <img src={Whitelogo} alt='logo blanc'/>
+            <img className='whitelogo'src={Whitelogo} alt='logo blanc'/>
             <span className='footer-text'>© 2020 Kasa. All rights reserved</span>
         </div>
     )

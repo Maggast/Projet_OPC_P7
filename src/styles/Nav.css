@@ -1,6 +1,5 @@
 .nav{
     display:flex;
-    
 }
 
 .nav a {
@@ -15,4 +14,20 @@
     text-decoration: underline; 
 }
 
+
+@media screen and (max-width: 900px) {
+    .nav a {
+        text-transform: uppercase ;
+        font-weight: 500;
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width:730px){
+    .nav a{
+        margin-left: 10px;
+    }
+    
+}
 

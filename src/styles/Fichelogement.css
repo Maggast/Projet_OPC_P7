@@ -1,4 +1,7 @@
 .fichelogement .lodge-info{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     position:relative;
     margin:0 100px 0 100px;
     font-size:18px;
@@ -7,15 +10,13 @@
 .lodge-info .title{
     font-size: 36px;
     height:51px;
+    width:100%;
 }
 
 .lodge-info .location{
     height:26px;
     margin-bottom: 20px;
-}
-
-.lodge-info .tags{
-margin-bottom: 24px;
+    width:100%;
 }
 
 .lodge-info .host{
@@ -59,6 +60,7 @@ margin-bottom: 24px;
     text-align: center;
     padding:5px 30px;
     margin-right:10px ;
+    height: max-content;
 }
 
 .lodge-info .tags-content{
@@ -67,58 +69,182 @@ margin-bottom: 24px;
 }
 
 .fichelogement .collapses-content{
-   display:flex; 
-   justify-content: space-between; 
-   margin-left: 100px;
-   margin-bottom:14px;
- 
+    display: flex;
+    margin-left: 100px;
 }
 
-.fichelogement .collapse button {
+.fichelogement .collapse{
+    width:100%;
     display:flex;
+    flex-direction: column;
+    padding-right: 100px; 
+}
+
+.fichelogement .collapse button{
+    width:100%;
+    display: flex;
     align-items: center;
     justify-content: space-between;
-    width:582px;
-    height:52px;
     background-color:#FF6060 ;
     color: white;
     border:none;
-    border-radius:10px;
-    padding-right:20px; 
-    padding-left: 18px;
-  
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 12px;  
 }
 
-.fichelogement .collapse h2{
-    font-family: 'Montserrat', sans-serif;
-    font-size:18px;
-    font-weight: 500; 
+.fichelogement .collapse button h2{
+    font-weight: 500;
+    font-size: 18px;
 }
 
-.fichelogement .collapse ul{
-    margin:0;
-    padding:0;
-   
-    
-}
-.fichelogement .collapse .detail{
-    width:552px;
-    padding-top: 40px;
-    background-color:  #F7F7F7;
-    height:249px;
-    padding-left :18px; 
-    padding-right: 12px;
+.fichelogement .detail{
+    height: 250px;
+    background: #F7F7F7;
+    border-radius: 10px;
+    margin: 0;
+    padding:40px 12px 53px 20px ;
+    line-height: 25px;
+    font-family: 'Montserrat';
+    font-style: normal;
     font-weight: 400;
-    font-size:18px;
-    border-radius: 5px;
-    line-height:25px ;
-    
+    font-size: 18px;
 }
-.fichelogement .collapses-content{
-    margin-right :76px;
-    
+
+.fichelogement .detail ul{
+    padding:0;
+    margin:0;
+    line-height: 0;
+    line-height:25px; 
+}
+
+.fichelogement .detail p{
+    margin:0;
+}
+
+.fichelogement .footer{
+    margin-top: 600px;
+}
+
+@media  screen and (max-width:1340px) {
+    .lodge-info .title{
+        width:75%;
+        height:max-content;
+    }
 }
  
+@media screen and (max-width:900px){
+
+    .fichelogement .lodge-info{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .lodge-info .title{
+        font-size: 18px;
+        height:40px;
+        margin-bottom: 10px; 
+    }
+
+    .lodge-info .location{
+        font-size: 14px;
+        height:22px;
+        margin-bottom: 10px;
+    }
+
+    .lodge-info .tag{
+        font-size: 10px;
+        padding-right:20px;
+        padding-left: 20px;
+        border-radius: 5px;
+        margin-top: 0;
+    }
+
+    .lodge-info .host{
+        right:0;
+        top:125px;
+     }
+
+    .lodge-info .host-name{
+        font-size: 12px;
+        text-align: center;
+        width:40px;
+        height:33px;
+        margin-right: 20px;
+    }
+    
+    .lodge-info .host-picture{
+        width:32px;
+        height:32px;
+    }
+
+    .stars-content{
+        position:initial;
+        margin-bottom: 24px;
+     }
+
+    .stars-content img{
+        width:15px;
+        height:15px;
+    }
+
+    .fichelogement .collapses-content{
+        margin-left: 20px;
+        margin-right: 20px;
+        flex-direction: column;
+    }
+
+    .fichelogement .collapse{
+        padding-right: 0;
+        margin-bottom: 20px; 
+    }
+
+    .fichelogement .collapse button{
+        height:30px;
+    }
+
+    .fichelogement .collapse button h2{
+        font-size: 13px;
+    }
+
+    .fichelogement .collapse button img{
+        width:15px;
+    }
+
+    .fichelogement .detail{
+        padding-top: 20px;
+        padding-bottom: 0;
+        height:auto;
+    }
+
+    .fichelogement .detail p {
+       font-size: 12px; 
+    }
+
+    .fichelogement .detail ul{
+        font-size: 12px;
+    }
+
+    .fichelogement .footer{
+        margin-top: 350px;
+    }
+}
+
+@media screen and (max-width:410px) {
+
+    .lodge-info .tags-content{
+        width:75%;
+    }
+
+    .lodge-info .host{
+        margin-top: 10px;
+    }
+
+}
 
 
 
