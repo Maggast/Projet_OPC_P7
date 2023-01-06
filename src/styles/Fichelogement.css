@@ -237,7 +237,8 @@
 @media screen and (max-width:410px) {
 
     .lodge-info .tags-content{
-        width:75%;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .lodge-info .host{
