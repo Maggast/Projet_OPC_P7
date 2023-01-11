@@ -55,7 +55,7 @@
     }
     
     .carrousel .picturenumber{
-        font-size: 12px;
+        display:none;
     }
 
     .carrousel button{
